@@ -9,3 +9,5 @@ The code also includes a canvas element with an ID, which is used in the JavaScr
 The JavaScript file defines a function that creates a parallax effect in the background of the web page by animating the canvas elements.
 
 Overall, this is a basic example of how to structure a web page and use HTML, CSS, and JavaScript to create animations and effects like parallax scrolling.
+
+You can visit my website through this link - https://pranavadi-webdev.netlify.app/ 
