@@ -1,0 +1,152 @@
+	<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio-PranavAditya21</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+      }
+      .intro {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-size: 36px;
+        font-weight: bold;
+        z-index: 1;
+        
+      }
+      .intro h1 {
+        margin-bottom: 10px;
+        font-family: Times New Roman;
+
+      }
+
+      .intro p {
+        font-size: 24px;
+      }
+      .intro span {
+        display: inline-block;
+        animation: blink 1s infinite;
+      }
+      .intro span.cursor {
+        border-right: 0.15em solid white;
+        margin-left: 5px;
+        animation: typing 2s steps(40, end), blink 0.5s step-end infinite;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+      }
+      body {
+  font-family: Garamond, serif;
+}
+
+p {
+  font-family: Garamond, serif;
+}
+
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      @keyframes blink {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: white;
+        }
+      }
+      .links {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        z-index: 2;
+      }
+      .links a {
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: none;
+      }
+      .links a:hover {
+        background-color: #DFFFD8;
+      }
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        background-color: transparent; /* set the background-color to transparent */
+        z-index: 31;
+      }
+      .thankyou {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        z-index: 31;
+      }
+      canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
+  .footer a:hover p{
+    background-color: #DFFFD8;
+    color: black;
+  }
+
+    </style>
+  </head>
+  <body>
+<div class="intro">
+  <h1><span style="color: #FF7000">Welcome to my Portfolio!</span></h1> 
+  <p>Hi ! <span style="color: #FCE22A"> I'm Pranav, </span>  a CSE student </p>
+  <p>You can <span style="color: #87A2FB; text-decoration: underline;"> click on the links above </span> to access my social handles.</p>
+  <span><span class="cursor"></span></span>
+</div>
+<div class="links">
+  <a href="https://github.com/NAVadi21" target="_blank"><img src="https://img.icons8.com/stickers/40/null/github.png"/></a>
+  <a href="https://www.instagram.com/impranavadi/" target="_blank"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png"/></a>
+  <a href="https://www.linkedin.com/in/pranavaditya21/" target="_blank"><img src="https://img.icons8.com/fluency/48/null/linkedin-circled.png"/></a>
+  <a href="mailto:pranavaditya21@gmail.com" target="_blank"><img src="https://img.icons8.com/plasticine/55/null/apple-mail.png"/></a>
+  <a href="https://drive.google.com/file/d/1yQf6ITiNZFHg559asrDlsKi0M17PpTRg/view?usp=sharing" target="_blank"><img src="https://img.icons8.com/ultraviolet/35/null/parse-from-clipboard.png"/></a>
+</div>
+
+<div class="footer">
+  <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" style="color: Blue; display: block; text-align: center; text-decoration: none;" onclick="rickRoll()">
+    <p class="thankyou"> Creator - <span style="color: #FF7000; text-decoration: underline;">  Pranav Aditya Singh </span> </p>
+  </a>
+</div><canvas id="canvas"></canvas>
+<script src="main.js"></script>
+<script>
+  function rickRoll() {
+    // Prompt user with "You've been rickrolled!"
+    window.alert("You've been rickrolled!");
+  }
+</script>
+
