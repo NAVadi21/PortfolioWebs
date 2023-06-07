@@ -1,5 +1,5 @@
 # PortfolioWebs
-Created My personal portfolio website and linked all my social accounts and links
+Created My personal portfolio website and linked all my social accounts and links 
 
 The HTML code is a basic structure of a web page that includes a heading, a paragraph and a set of links to social media accounts. 
 The CSS styles are used to set the font family, font size, text alignment, and background color of the web page. 
