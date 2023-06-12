@@ -11,3 +11,4 @@ The JavaScript file defines a function that creates a parallax effect in the bac
 Overall, this is a basic example of how to structure a web page and use HTML, CSS, and JavaScript to create animations and effects like parallax scrolling.
 
 You can visit my website through this link - https://pranavadi-webdev.netlify.app/ 
+ 
